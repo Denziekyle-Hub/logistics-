@@ -36,12 +36,12 @@ if ($res)
      
       $subject ="Your Package Request Have been received waiting to see you, In our offices";
       $Message ="Hie Thank You for Your Request"."\n\n\n\n\n". "Here is Your tracking id ".$tracking_id;
-      $headers = "From: no-reply@ekhayalogistics.com" . "\r\n" .
-"CC: masukaeliphas34@gmail.com";
+      $headers = "From: no-reply@limitlesslogistics.com" . "\r\n" .
+"CC: kakumuradenzel@gmail.com";
 
 mail($to,$subject,$Message,$headers);
 
-$text = "https://admin.ekhayalogistics.com/view.php?ssh=xhagtDb_ushgsggshjahjhakjakjETTPOMNVCEWTHAHGAMnumassfbnahghhg&id=".$id."&track=".$tracking_id; 
+$text = "https://admin.limitlesslogistics.com/view.php?ssh=xhagtDb_ushgsggshjahjhakjakjETTPOMNVCEWTHAHGAMnumassfbnahghhg&id=".$id."&track=".$tracking_id; 
 
 // // $path variable store the location where to 
 // // store image and $file creates directory name 
