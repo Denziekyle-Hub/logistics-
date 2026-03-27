@@ -1,0 +1,44 @@
+.tracking_main
+{
+    background: #f8f9fa!important;
+}
+.color-main
+{
+    color: #e68600;
+}
+
+.status-div
+{
+    background: #fff;
+}
+.fa-x
+{
+    font-size: 32px;
+    color:inherit;
+}
+#shipment_facts{
+    margin-top: 0px;
+}
+.activity_time
+{
+ 
+    padding-right: 40px;
+}
+.arrows 
+{
+    font-size: 17px;
+    color: inherit;
+    font-weight: 900;
+}
+.update-form-container 
+{
+    margin:auto;
+   
+    background: #fff;
+  
+    
+}
+.no-border-radius
+{
+    border-radius: 0px;
+}

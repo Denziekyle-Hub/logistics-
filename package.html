@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.min.css">
+         <link rel="shortcut icon" type="image/x-icon" href="img/limitless-logo(1).png" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>LimitLess Energy Logistics | Login or Sign Up</title>
+    <style>
+       .login2 {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #B0BEC5;
+    background-repeat: no-repeat
+}
+
+.card0 {
+    box-shadow: 0px 4px 8px 0px #757575;
+    border-radius: 0px
+}
+
+.card2 {
+    margin: 0px 40px
+}
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+
+.image {
+    width: 360px;
+    height: 280px
+}
+
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.twitter {
+    background-color: #1DA1F2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.linkedin {
+    background-color: #2867B2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+}
+
+.or {
+    width: 10%;
+    font-weight: bold
+}
+
+.text-sm {
+    font-size: 14px !important
+}
+
+::placeholder {
+    color: #BDBDBD;
+    opacity: 1;
+    font-weight: 300
+}
+
+:-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+::-ms-input-placeholder {
+    color: #BDBDBD;
+    font-weight: 300
+}
+
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #304FFE;
+    outline-width: 0
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+a {
+    color: inherit;
+    cursor: pointer
+}
+
+.btn-blue {
+     background-color:#A81717;
+    width: 150px;
+    color: #fff;
+    border-radius: 2px
+}
+
+.btn-blue:hover {
+    cursor: pointer;
+}
+
+.bg-blue {
+    color: #fff;
+    background-color: #1A237E
+}
+
+@media screen and (max-width: 991px) {
+    .logo {
+        margin-left: 0px
+    }
+
+    .image {
+        width: 300px;
+        height: 220px
+    }
+
+    .border-line {
+        border-right: none
+    }
+
+    .card2 {
+        border-top: 1px solid #EEEEEE !important;
+        margin: 0px 15px
+    }
+}
+    </style>
+</head>
+<body>
+     <div class="intro_container">
+        <div class="row">
+        <div class="intro_logo_container_div col-md-7">
+          <div class="intro_logo_div">
+              <a href="index.html">
+            <img src="img/limitless-logo(1).png" alt="Limitless Energy Logistics Logo|Limitless Energy">
+         </a> </div>
+          <div class="intro_info">
+             <h1 style="color:#e68600;">Limitless Energy <span style="color:#871212;">Logistics</span></h1>
+            <p style="color: #000; font-weight: bold;">Fueling a connected world!</p>
+          </div>
+        </div>
+     
+        <div class="intro_contact_div col-md-5" style="font-size:99%;">
+          <span class="pt-10"><a href="tel:+918010266351" class="contact-a">Call Us : +91 801 026 6351 </a> <span class="divider">|</span><a href="tel:+918010251955" class="contact-a"> +91 801 025 1955</a> <span class="divider">|</span><span> <a href="tel:+263774453652" class="contact-a">+263 77 445 3652</a></span></span>
+          <span class="divider">|</span>   <span style="position: relative; bottom: 7px;"><a href="https://wa.me/918010266351?text=Hie%20Ekhaya%20Logistics,%20I%20want%20to%20Ship%20some%20 goods%20"><img src="img/whatsapp.png" class="pt-2"></a></span>
+        </div>
+      </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-none" style=" background-color:#FFB145;">
+       
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="package.html">Send Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login / Register</a>
+            </li>
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/faqs">FAQs <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container-fluid px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto login2">
+        <div class="card card0 border-0">
+            <div class="row d-flex">
+                <div class="col-lg-6">
+                    <div class="card1 pb-5">
+                        <div class="row"> <img src="img/limitless-logo(1).png" class="Ekhaya Logistics logo.| How to ship goods to Zimbabwe| how to ship goods to India"> </div>
+                        <div class="card2 card border-0 px-4 py-5">
+                            <div class="row mb-4 px-3">
+                                <h6 class="mb-0  mt-2">Sender Details</h6>
+                               
+                            </div>
+                            <div class="row px-3 mb-4">
+                                <div class="line"></div> <small class="or text-center">Here</small>
+                                <div class="line"></div>
+                            </div>
+                            <form  action="" id="packageDetails" >
+                                <div class="row px-3"> <label class="mb-1">
+                                    <h6 class="mb-0 text-sm">Full Name <span class="text-danger" style="font-size:105%">* </span></h6>
+                                </label> <input class="mb-4" type="text" name="sender_name" placeholder="Enter your name" required> </div>
+                            <div class="row px-3"> <label class="mb-1">
+                                    <h6 class="mb-0 text-sm"> Sender Email<span class="text-muted">(optional)</span></h6>
+                                </label> <input class="mb-4" type="text" name="sender_email" placeholder="Enter a valid email address"> </div>
+                            <div class="row px-3"> <label class="mb-1">
+                                    <h6 class="mb-0 text-sm">Sender Phone <span class="text-danger" style="font-size:105%">* </span></h6>
+                                </label> <input type="tel" name="sender_phone" placeholder="Enter Mobile No." required> </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row px-3"> <label class="mb-1">
+                                            <h6 class="mb-0 text-sm">Weight Per Package(Kg) <span class="text-danger" style="font-size:105%">* </span></h6>
+                                        </label> <input type="number"  name="weight" placeholder="Enter weight in Kg"> </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="row px-3"> <label class="mb-1">
+                                            <h6 class="mb-0 text-sm">Quantity</h6>
+                                        </label> <input type="number" name="quantity" value="1"  placeholder="Enter Quantity"> </div>
+                                    </div>
+                                </div>
+                                <div class="row px-3"> <label class="mb-1">
+                                    <h6 class="mb-0 text-sm">Sender Address <span class="text-danger" style="font-size:105%">* </span></h6>
+                                </label> <input type="text" name="sender_address" class="places" placeholder="City/State, Country"> </div>
+                                <div class="row px-3"> <label class="mb-1">
+                                    <h6 class="mb-0 text-sm">Description <span class="text-danger" style="font-size:105%">* </span></h6>
+                                </label> <textarea name="description"  placeholder="what are your goods.." required row ="3"> </textarea> </div>
+                                <div class="row px-3 mb-4">
+                                    <div class="custom-control custom-checkbox custom-control-inline"> <input id="chk2" type="checkbox" name="chk" class="custom-control-input"> <label for="chk2" class="custom-control-label text-sm">Whatsapp me</label> </div>
+                                </div>
+                           
+                            
+
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card2 card border-0 px-4 py-5" style="margin-top: 100px;">
+                        <div class="row mb-4 px-3 d-flex">
+                            <h6 class="mb-0  mt-2">Receiver Details</h6>
+                           
+                        </div>
+                        <div class="row px-3 mb-4">
+                            <div class="line"></div> <small class="or text-center">Here</small>
+                            <div class="line"></div>
+                        </div>
+                     
+                        <div class="row px-3"> <label class="mb-1">
+                            <h6 class="mb-0 text-sm">Full Name <span class="text-danger" style="font-size:105%">* </span></h6>
+                        </label> <input class="mb-4" type="text" name="receiver_name" placeholder="Enter Your Full name" required> </div>
+                        <div class="row px-3"> <label class="mb-1">
+                                <h6 class="mb-0 text-sm">Phone No. <span class="text-danger" style="font-size:105%">* </span></h6>
+                            </label> <input class="mb-4" type="tel" name="receiver_phone" placeholder="Enter Receiver phone number" required> </div>
+                            
+                        <div class="row px-3"> <label class="mb-1">
+                            <h6 class="mb-0 text-sm">Receiver Email<span class="text-muted">(optional)</span></h6>
+                        </label> <input class="mb-4" type="text" name="receiver_email" placeholder="Enter a valid email address"> </div>
+                        <div class="row px-3"> <label class="mb-1">
+                                <h6 class="mb-0 text-sm">Package Image (if any )</h6>
+                            </label> <input type="file" accept=".jpg,.png, .pdf, .doc, .gif" name="image" placeholder="Enter password"> </div>
+                      
+                        <div class="row px-3"> <label class="mb-1">
+                            <h6 class="mb-0 text-sm">Receiver Address <span class="text-danger" style="font-size:105%">* </span></h6>
+                        </label> <input type="text" name="receiver_address"  class="places" placeholder="City/State, Country" required> </div>
+                        <div class="row mb-3 px-3"> <button type="submit" class="btn btn-blue text-center">Submit</button> </div>
+                    </form>
+
+                    <div class="alert alert-success d-none" id="tracking_div">Your Tracking Id is <strong><span id="tracking-id"></span></strong> , We have sent it to your email address, Your QR code will download shortly if not then, <a href="http://Denzelwebs.tech"class="btn btn-success btn-sm" id="dl" download>Download QR </a></div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class=" py-4" style=" background-color:#FFB145;">
+                <div class="row px-3"> <small class="ml-4 ml-sm-5 mb-2">Copyright &copy; 2026.  Logistics All rights reserved.</small>
+                    <div class="social-contact ml-4 ml-sm-auto"> <span class="fa fa-facebook mr-4 text-sm"></span> <span class="fa fa-whatsapp mr-4 text-sm"></span> <span class="fa fa-instagram mr-4 text-sm"></span> <span class="fa fa-twitter mr-4 mr-sm-5 text-sm"></span> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+
+<!-- Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Order Succesfull</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <div class="text-success" >Your Tracking Id is <strong><span id="tracking-id-t"></span></strong> , We have sent it to your email address. Your QR code will be downloaded shortly.</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="jquery-ui/external/jquery/jquery.js"></script>
+    <script src="jquery-ui/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5f57adcc4704467e89ed3261/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+   
+    <script>
+        $( function() {
+      var IndianStates = [
+        "India",
+       "Andhra Pradesh, India",
+                "Arunachal Pradesh, India",
+                "Assam, India",
+                "Bihar, India",
+                "Chhattisgarh, India",
+                "Goa, India",
+                "Gujarat, India",
+                "Haryana, India",
+                "Himachal Pradesh, India",
+                "Jammu and Kashmir, India",
+                "Jharkhand, India",
+                "Karnataka, India",
+                "Kerala, India",
+                "Madhya Pradesh, India",
+                "Maharashtra, India",
+                "Manipur, India",
+                "Meghalaya, India",
+                "Mizoram, India",
+                "Nagaland, India",
+                "Odisha, India",
+                "Punjab, India",
+                "Rajasthan, India",
+                "Sikkim, India",
+                "Tamil Nadu, India",
+                "Telangana, India",
+                "Tripura, India",
+                "Uttarakhand, India",
+                "Uttar Pradesh, India",
+                "West Bengal, India",
+                "Andaman and Nicobar Islands, India",
+                "Chandigarh, India",
+                "Dadra and Nagar Haveli, India",
+                "Daman and Diu, India",
+                "Delhi, India",
+                "Lakshadweep, India",
+                "Puducherry, India",
+                "Zimbabwe",
+                "Harare, Zimbabwe",
+                "Bulawayo, Zimbabwe",
+                "Chitungwiza, Zimbabwe",
+                "Mutare, Zimbabwe",
+                "Gweru, Zimbabwe",
+                "Epworth, Zimbabwe",
+                "Kwekwe, Zimbabwe",
+                "Kadoma, Zimbabwe",
+                "Masvingo, Zimbabwe",
+                "Chinhoyi, Zimbabwe",
+                "Marondera, Zimbabwe",
+                "Norton, Zimbabwe",
+                "Chegutu, Zimbabwe",
+                "Bindura, Zimbabwe",
+                "Zvishavane, Zimbabwe",
+                "Victoria Falls, Zimbabwe",
+                "Hwange, Zimbabwe",
+                "Redcliff, Zimbabwe",
+                "Ruwa, Zimbabwe",
+                "Rusape, Zimbabwe",
+                "Chiredzi, Zimbabwe",
+                "Beitbridge, Zimbabwe",
+                "Kariba, Zimbabwe",
+                "Karoi, Zimbabwe",
+                "Gokwe, Zimbabwe",
+                "Chipinge, Zimbabwe",
+                "Shurugwi, Zimbabwe",
+                "Gwanda, Zimbabwe",
+                "Mashava, Zimbabwe",
+                "Chivhu, Zimbabwe",
+                "Shamva, Zimbabwe",
+                "Mazowe, Zimbabwe",
+                "Glendale, Zimbabwe",
+                "Banket, Zimbabwe",
+                "Mutoko, Zimbabwe",
+                "Murehwa, Zimbabwe",
+                "Inyati, Zimbabwe",
+                "Mvurwi, Zimbabwe",
+                "Penhalonga, Zimbabwe",
+                "Mhangura, Zimbabwe",
+                "Chakari, Zimbabwe",
+                "Mount Darwin, Zimbabwe",
+                "Lupane"
+      ];
+      $( ".places" ).autocomplete({
+        source: IndianStates
+      });
+    } );
+
+
+    $('#packageDetails').submit(function(event) {
+        event.preventDefault();
+        $.ajax({
+           url:'package.php',
+           method :'POST',
+           data : $(this).serialize(),
+           dataType : "json",
+           success: function(data)
+           { 
+               $('#tracking_div').removeClass('d-none');
+               $('input').val('');
+                $('textarea').val('');
+                $(document).ready(function(){
+                $('#successModal').modal('show');
+                });
+               $('#tracking-id').html(data);
+               
+                  $('#tracking-id-t').html(data);
+               $(document).ready(function(){
+                  $("#dl").attr("href","admin/images/"+data+".png");
+               
+                  $('#dl').trigger("click");
+               });
+           }
+        });
+
+});
+function myFunction() {
+  /* Get the text field */
+  var copyText = document.getElementById("tracking-id-t");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+}
+    </script>
+</body>
+
+</html>

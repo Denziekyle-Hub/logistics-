@@ -1,0 +1,231 @@
+body {
+  
+    overflow-x: hidden;
+    height: 100%;
+    background-color: #f2f2f2;
+    background-repeat: no-repeat
+}
+
+.tracker {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-repeat: no-repeat
+}
+
+.card {
+    z-index: 0;
+    background-color: #ECEFF1;
+    padding-bottom: 20px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    border-radius: 10px
+}
+
+.top {
+    padding-top: 10px;
+    padding-left: 13% !important;
+    padding-right: 13% !important
+}
+.top1 {
+    padding-top: 8px;
+    padding-left: 6% !important;
+    padding-right: 6% !important
+}
+
+#progressbar {
+    margin-bottom: 30px;
+    color: #455A64;
+    padding-left: 0px;
+    margin-top: 30px
+}
+
+#progressbar li {
+    list-style-type: none;
+    font-size: 10px;
+    width: 12%;
+    float: left;
+    position: relative;
+    font-weight: 400
+}
+.top1 > p{
+    width:12%;
+    font-size:96%;
+}
+#progressbar .step0:before {
+    font-family: FontAwesome;
+    content: "\f10c";
+    color: #fff
+}
+
+#progressbar li:before {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    background: #C5CAE9;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px
+}
+
+#progressbar li:after {
+    content: '';
+    width: 100%;
+    height: 12px;
+    background: #C5CAE9;
+    position: absolute;
+    left: 0;
+    top: 16px;
+    z-index: -1
+}
+
+#progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    left: -50%
+}
+
+#progressbar li:nth-child(2):after,
+#progressbar li:nth-child(3):after,
+#progressbar li:nth-child(4):after,
+#progressbar li:nth-child(5):after,
+#progressbar li:nth-child(6):after,
+#progressbar li:nth-child(7):after,
+#progressbar li:nth-child(8):after,
+#progressbar li:nth-child(9):after,
+#progressbar li:nth-child(10):after,
+#progressbar li:nth-child(11):after,
+#progressbar li:nth-child(12):after,
+#progressbar li:nth-child(13):after,
+#progressbar li:nth-child(14):after,
+#progressbar li:nth-child(15):after
+{
+     bottom: 0;
+    left: -50%
+}
+
+#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    left: 50%
+}
+
+#progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px
+}
+
+#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+    background: #FFB145
+}
+
+#progressbar li.active:before {
+    font-family: FontAwesome;
+    content: "\f00c"
+}
+input[type=checkbox]
+{
+    width: 30px;
+    height: 30px;
+}
+.mind {
+    overflow-x:visible;
+}
+input[type=checkbox][readonly]{
+    pointer-events: none;
+}
+.card {
+    overflow-x:visible;
+}
+ #progressbar p {
+     display:none;
+ }
+@media only screen and (max-width: 700px) {
+    .top1 p{
+       font-size:60%;
+       display:none;
+    }
+    #progressbar {
+        position:relative;
+    }
+    #progressbar p {
+        display:block;
+        position:absolute;
+        left:50px;
+    }
+     #progressbar .p1 {
+         top:14px;
+     }
+     
+    #progressbar li{
+        float:none;
+        height:70px;
+        width:5px;
+        margin:10px;
+    }
+    #progressbar li:after {
+    content: '';
+    width: 10px;
+    height: 100%;
+    background: #C5CAE9;
+    position: absolute;
+    left: 10px;
+    top: 16px;
+    z-index: -1
+}
+    #progressbar li:before {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    display: block;
+    font-size: 20px;
+    background: #C5CAE9;
+    border-radius: 50%;
+    margin: auto;
+    padding: 0px
+}
+    #progressbar li:last-child:after {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    height:0px;
+    
+}
+
+#progressbar li:nth-child(2):after,
+#progressbar li:nth-child(3):after,
+#progressbar li:nth-child(4):after,
+#progressbar li:nth-child(5):after,
+#progressbar li:nth-child(6):after,
+#progressbar li:nth-child(7):after,
+#progressbar li:nth-child(8):after,
+#progressbar li:nth-child(9):after,
+#progressbar li:nth-child(10):after,
+#progressbar li:nth-child(11):after,
+#progressbar li:nth-child(12):after,
+#progressbar li:nth-child(13):after,
+#progressbar li:nth-child(14):after,
+#progressbar li:nth-child(15):after
+{
+    bottom: 50%; 
+    left:14px;
+}
+
+#progressbar li:first-child:after {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left:14px;
+}
+}
